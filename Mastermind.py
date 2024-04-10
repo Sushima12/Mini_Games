@@ -10,7 +10,7 @@ def main():
 
 def generate_code():
     #generates the code for player to guess
-    letters = string.ascii_uppercase
+    letters = ['A','B','C','D','E','F']
     random_letters = random.choices(letters, k = 4)
     return random_letters
 
